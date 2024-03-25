@@ -1,0 +1,25 @@
+{
+  "name": "@otplib/preset-v11",
+  "description": "v11.x compatible interface preset for otplib",
+  "version": "12.0.1",
+  "main": "./index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "keywords": [
+    "otplib-preset",
+    "node"
+  ],
+  "dependencies": {
+    "@otplib/core": "github:manhquan01/otp-core",
+    "@otplib/plugin-crypto": "github:manhquan01/otp-plugin-crypto",
+    "@otplib/plugin-thirty-two": "github:manhquan01/otp-plugin-thirty-two"
+  },
+  "otplib": {},
+  "author": "Gerald Yeo <contact@fusedthought.com>",
+  "license": "MIT",
+  "homepage": "https://yeojz.otplib.dev",
+  "repository": "https://github.com/yeojz/otplib/tree/master/packages/otplib-preset-v11",
+  "types": "./index.d.ts"
+}
